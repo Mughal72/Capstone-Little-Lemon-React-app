@@ -39,10 +39,6 @@
 ![Onboarding](https://user-images.githubusercontent.com/108392678/217715066-19026169-ab51-450e-b21c-cc925940d03e.jpg)
 ![Profile and Home](https://user-images.githubusercontent.com/108392678/217715079-d66eb960-f5cf-4cdf-8f33-b45b320fca7e.jpg)
 
-### Links
-
-- Github: [Code](https://github.com/marventures/little-lemon-app)
-- Demo : Scan the [QR Code](https://expo.dev/@marventures/little-lemon-app) to see the demo.
 
 ## My process
 
@@ -53,25 +49,7 @@
 - [AsyncStorage](https://react-native-async-storage.github.io/async-storage/docs/api/) - For storing user preferences.
 - [StyleSheet](https://reactnative.dev/docs/stylesheet) - For styles
 
-### What I learned
 
-- Create a React Native App using Expo
-- Create a wireframe and high fidelity mockup using Figma.
-- Use ContextAPI for login
-- Use React Navigation (Native Stack) for screen routes.
-- Use ImagePicker API to set user Profile Picture
-- Use useFonts Hook from expo-fonts to set custom fonts
-- Use AsyncStorage to store user settings.
-- Use getItem and setItem methods to read and set data to AsyncStorage
-- ConnectAsyncStorage to a state
-- Use SQLite to store Menu Items
-- Connect SQLite to a state
-- Create form validation for users
-- Handling side-effects using useEffect Hook
-- Use FlatList component to render menu
-- Use ScrollView component to render categories title
-- Use View, View, Text Components
-- Extract all styles to StyleSheet API
 
 Here is a code snippet:
 
@@ -134,16 +112,4 @@ useEffect(() => {
 }, []);
 ```
 
-### Useful resources
 
-- [React Native Docs (StyleSheet) ](https://reactnative.dev/docs/stylesheet) - This helped me for all the neccessary React Native styles. I really liked their documentation and will use it going forward.
-- [ImagePicker API](https://docs.expo.dev/versions/latest/sdk/imagepicker/) - This helped me for creating an option for user to select profile picture on their devices.
-- [SQLite](https://docs.expo.dev/versions/latest/sdk/sqlite/) - This helped me for saving menu items.
-- [Async Storage](https://react-native-async-storage.github.io/async-storage/docs/api/) - This helped me for saving user settings.
-- [ContextAPI](https://beta.reactjs.org/reference/react/createContext)- This helped me for creating a authentication context for login.
-
-## Author
-
-- Website - [Marvin Morales Pacis](https://marvin-morales-pacis.vercel.app/)
-- LinkedIn - [@marventures](https://www.linkedin.com/in/marventures/)
-- Twitter - [@marventures11](https://www.twitter.com/marventures11)
